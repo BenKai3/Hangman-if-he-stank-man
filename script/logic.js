@@ -5,6 +5,7 @@ var alphaString = 'abcdefghijklmnopqrstuvwxyz';
 
 function addWordToPage(){
 	word = document.getElementById('input').value;
+	document.getElementById('input').value = '';
 	document.getElementById('input').className = 'hidden';
 	document.getElementById('start').className = 'hidden';
 	for (var i = 0; i < word.length; i++) {
