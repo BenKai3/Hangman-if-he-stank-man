@@ -23,7 +23,7 @@ body {
 	width: 100%;
 	text-align: center;
 }
-#letterChoices p, #word h1, #lost {
+#letterChoices p, #word h1, #lost, #start {
 	display: inline-block;
 	width: 10%;
 	border: 1px solid white;
@@ -32,9 +32,10 @@ body {
 	margin: 10px;
 	font-size: 24pt;
 }
-#lost {
+#lost, #start {
 	width: 90%;
 }
+
 .chosen {
 	opacity: .5;
 	pointer-events: none;
