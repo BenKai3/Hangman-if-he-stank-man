@@ -4,13 +4,17 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css"></link>
 	<script type="text/javascript" src="script/logic.js"></script>
 </head>
-<body>
-	<div id="wordAndMan">
-		<div id="word"></div>
-		<div id="sacrificialMan">
-			<img id="manImage" src="img/0.png">
+<body id="body">
+	<div id="game">
+		<div id="wordAndMan">
+			<input id="input" type="password"><div id="start" onclick="addWordToPage()">May He Hang!</div>
+			<div id="word"></div>
+			<div id="wordCover"></div>
+			<div id="sacrificialMan">
+				<img id="manImage" src="img/0.png">
+			</div>
 		</div>
+		<div id="letterChoices"></div>
 	</div>
-	<div id="letterChoices"></div>
 </body>
 </html>
